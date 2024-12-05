@@ -1,6 +1,6 @@
-package probability.project;
+package probability;
 
-import probability.project.Card;
+import probability.Card;
 import java.util.ArrayList;
 import java.util.List;
 /**

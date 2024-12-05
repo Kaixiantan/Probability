@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package probability.project;
-
-import java.util.List;
+package probability;
 
 /**
  *
@@ -19,12 +17,10 @@ public class ProbabilityProject {
         System.out.println("--- Sample Data: Deck of Cards ---");
         System.out.print(deck);
         
-        calcJointProbability(deck.getCards());
+        //calcJointProbability(deck.getCards());
         // methods EXP: calcMarginalProbability()
     }
     
-    private static void calcJointProbability(List<Card> cards){
-        
-    }
+    // private static void calcJointProbability(List<Card> cards){}
 
 }
