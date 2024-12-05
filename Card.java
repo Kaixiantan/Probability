@@ -12,8 +12,8 @@ package probability.project;
  * get suit and rank from Deck class
  */
 public class Card {
-    private String suit;
-    private String rank;
+    private final String suit;
+    private final String rank;
     
     public Card(String suit, String rank){
         this.suit = suit;
